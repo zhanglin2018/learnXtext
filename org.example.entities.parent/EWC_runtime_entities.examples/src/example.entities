@@ -1,0 +1,8 @@
+entity MyFirstEntity{
+	int[] myIntArray;
+	string myString;
+}
+
+entity MySecondEntity extends MyFirstEntity{
+	MyFirstEntity anEntity;
+}
