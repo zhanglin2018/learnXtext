@@ -6,3 +6,8 @@ entity MyFirstEntity{
 entity MySecondEntity extends MyFirstEntity{
 	MyFirstEntity anEntity;
 }
+
+entity HaiSheng{
+    string name;
+    string sex;
+}
